@@ -1,0 +1,134 @@
+.navigationTitle{
+  margin:20px;
+  .itemNavigation{
+    width: 245px;
+    height: 65px;
+    background-image: url('../../assets/images/icon/select.png');
+    float: left;
+    color: white;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    font-size: 24px;
+    color:rgba(255,255,255,1);
+    .navigationNum{
+      background: white;
+      width: 29px;
+      height: 29px;
+      border-radius: 50%;
+      align-items: center;
+      color: #7958FC;
+      float: left;
+      line-height: 29px;
+      text-align: center;
+      margin-top: 18px;
+      margin-left: 70px;
+    }
+    span{
+      margin-left: 20px;
+      line-height: 65px;
+    }
+  }
+  .itemNavigation1{
+    width: 245px;
+    height: 65px;
+    background-image: url('../../assets/images/icon/unSelect.png');
+    float: left;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    font-size: 24px;
+    color: #999999;
+    .navigationNum{
+      background: #999999;
+      width: 29px;
+      height: 29px;
+      border-radius: 50%;
+      align-items: center;
+      color: #F2F2F2;
+      float: left;
+      line-height: 29px;
+      text-align: center;
+      margin-top: 18px;
+      margin-left: 70px;
+    }
+    span{
+      margin-left: 20px;
+      line-height: 65px;
+    }
+  }
+}
+.initialInformation{
+  text-align: center;
+  clear: both;
+  padding: 50px;
+  width: 100%;
+  .initialTitle{
+    font-size:24px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(42,42,42,1);
+    line-height: 40px;
+  }
+  .initialHead{
+    font-size:18px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(42,42,42,1);
+  }
+  .information{
+    display: flex;
+    align-items:center;
+    font-family:Microsoft YaHei;
+    margin: 60px auto;
+    .item{
+      flex: 1;
+      .itemBack{
+        width:130px;
+        height:130px;
+        background:rgba(219,219,219,1);
+        border-radius:50%;
+        display: flex;
+        align-items:center;
+        margin: 0 auto;
+        img{
+          margin: 0 auto
+        }
+      }
+      .itemTitle{
+        font-size:24px;
+        font-weight:400;
+        color:rgba(42,42,42,1);
+        line-height: 40px;
+        margin-top: 10px;
+        height: 40px;
+      }
+      .itemHead{
+        font-size:18px;
+        font-weight:400;
+        color:rgba(153,153,153,1);
+        margin-top: 10px;
+        height: 40px;
+      }
+      button{
+        margin-top: 10px;
+      }
+    }
+    .active{
+      cursor: pointer;
+    }
+    .itemBack.active{
+      background:linear-gradient(150deg,rgba(173,153,253,1),rgba(111,78,245,1));
+      border-radius:50%;
+    }
+  }
+}
+.tips{
+  margin-top: 30px;
+  line-height: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  span{
+    color: red;
+  }
+}

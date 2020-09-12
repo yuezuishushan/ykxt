@@ -1,0 +1,284 @@
+body{
+  letter-spacing: 1px;
+}
+.layout{
+  background: white;
+  padding-bottom: 20px;
+}
+.head{
+  height:56px;
+  background:rgba(247,248,250,1);
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size:18px;
+  clear: both;
+  .title{
+    height: 30px;
+    width: 100%;
+    margin-top: 18px;
+    float: left;
+    h4{
+      font-weight: bold;
+      float: left;
+      margin-left: 10px;
+      line-height: 20px;
+      font-size:18px;
+    }
+    p{
+      color: #7958FC;
+      float: right;
+      cursor: pointer;
+    }
+    img{
+      float: right;
+      margin-right: 30px;
+      margin-left: 20px;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+    .dateTime{
+      float: right;
+      margin-right: 20px;
+    }
+  }
+  .title:before{
+    content: '1';
+    color: rgba(0,0,0,0);
+    background: #7958FC;
+    float: left;
+    width: 5px;
+    height: 20px;
+  }
+}
+.chat{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.other{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border: 1px solid #D8DADC;
+  height: 448px;
+  position: relative;
+  .itemOther{
+    width: 50%;
+    height: 224px;
+    float: left;
+    .otherDetail{
+      margin: 50px 70px;
+      .itemDetailTitle{
+        font-size:18px;
+        font-family:Microsoft YaHei;
+        font-weight:bold;
+        color:rgba(42,42,42,1);
+        img{
+          float: left;
+          width: 35px;
+          margin-right: 7px;
+        }
+      }
+      .itemDetailToday{
+        font-size:34px;
+        font-family:Microsoft YaHei;
+        font-weight:bold;
+        color:rgba(121,88,252,1);
+        margin-top: 10px;
+      }
+      .itemDetailYesterday{
+        font-size:18px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(153,153,153,1);
+        margin-top: 10px;
+      }
+    }
+  }
+  .itemOtherBorder:before{
+    content: '12';
+    color: rgba(0,0,0,0);
+    height: 185px;
+    width: 1px;
+    background: #D8DADC;
+    position: absolute;
+    top: 135px;
+    left: 310px
+  }
+}
+.warning{
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #D8DADC;
+  margin-top: 10px;
+  .itemWarning{
+    flex: 1;
+    padding-bottom: 10px;
+    cursor: pointer;
+    .itemWarningtitle{
+      img{
+        float: left;
+        width: 63px;
+      }
+      span{
+        font-size:18px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(42,42,42,1);
+        line-height: 63px;
+      }
+    }
+    .itemWarningMsg{
+      margin-left: 63px;
+      color: #999999;
+      line-height: 20px;
+      height: 20px;
+      font-size: 18px;
+      margin-bottom: 18px;
+      p{
+        float: left;
+        span{
+          color: #7958FC;
+          font-weight: bold;
+        }
+      }
+      img{
+        float: right;
+        margin-right: 50px;
+        width: 10px;
+      }
+    }
+  }
+}
+.warning:last-child{
+  border-bottom: 0px !important;
+}
+.pending{
+  margin-top: 20px;
+  padding-top: 5px;
+  background: white;
+  height: 200px;
+  margin-left: 20px;
+  font-family:Microsoft YaHei;
+  .pendingMsg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    .itemPending{
+      flex: 1;
+      margin-top: 20px;
+      height: 40px;
+      color: #7958FC;
+        line-height: 40px;
+        font-size: 34px;
+      span{
+        margin-top: 5px;
+        color: #999999;
+        font-size: 18px;
+      }
+    }
+    .itemPendingTyp{
+      font-size:18px;
+      font-weight:400;
+      color:rgba(42,42,42,1);
+    }
+  }
+}
+.system{
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  background: white;
+  .systemMsg{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    .itemSystemMsg{
+      flex: 1;
+      min-width: 50%;
+      line-height: 40px;
+      font-size:18px;
+      font-family:Microsoft YaHei;
+      font-weight:400;
+      color:rgba(42,42,42,1);
+      span{
+        margin-left: 40px;
+      }
+    }
+  }
+}
+.footer{
+  height:175px;
+  background:rgba(255,255,255,1);
+  margin-top: 20px;
+  .quick{
+    float: left;
+    cursor: pointer;
+    .features{
+      font-size:18px;
+      font-family:Microsoft YaHei;
+      font-weight:400;
+      color:rgba(42,42,42,1);
+      margin-left: 20px;
+      line-height: 175px;
+      img{
+        width: 103px;
+        margin-top: 37px;
+        float: left;
+      }
+    }
+  }
+  .customerSerive{
+    height: 71px;
+    margin-top: 52px;
+    padding-left: 70px;
+    margin-left: 70px;
+    border-left: 1px solid #DDDDDD;
+    float: left;
+    width: 400px;
+    font-size:18px;
+    cursor: pointer;
+    img{
+      float: left;
+    }
+    p{
+      margin-left: 80px;
+      line-height: 33px;
+    }
+  }
+  .qqWeChat{
+    float: left;
+    width: 400px;
+    font-size:18px;
+    height: 71px;
+    margin-top: 52px;
+    margin-left: 40px;
+    float: left;
+    width: 100px;
+    cursor: pointer;
+    img{
+      margin-top: -20px;
+    }
+  }
+  .install{
+    padding-left: 30px;
+    margin-left: 30px;
+    border-left: 1px solid #DDDDDD;
+    height: 71px;
+    margin-top: 52px;
+    float: left;
+    font-size:18px;
+    cursor: pointer;
+    div{
+      float: left;
+      margin-left: 40px;
+      img{
+        margin-top: -25px;
+      }
+    }
+  }
+}

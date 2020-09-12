@@ -1,0 +1,83 @@
+.edit-table{
+  .row-wrapper{
+    position: relative;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    .actions{
+      display: none;
+      flex: 1;
+      .ivu-btn{
+        height: 18px;
+        width: 18px;
+        padding: 0;
+        margin: 2px;
+        line-height: 16px;
+      }
+    }
+    .label{
+      line-height: 44px;
+      display: block;
+      flex: 1;
+    }
+  }
+  .ivu-table-row{
+    &:hover{
+      .row-wrapper{
+        .actions{
+          display: block;
+        }
+        .label{
+          display: none;
+        }
+      }
+    }
+    .edit-table-text{
+      min-height: 32px;
+      line-height: 32px;
+    }
+    .ivu-form-item{
+      margin-bottom: 0;
+      display: block;
+      margin-right: 0;
+      &.ivu-form-item-error{
+        .edit-table-text{
+          min-height: 32px;
+          border: 1px solid #ed4014 !important;
+          border-radius: 4px;
+        }
+      }
+    }
+    input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+      -webkit-appearance: none !important;
+      margin: 0;
+    }
+    .ivu-tree-select{
+      &:not(.ivu-select-visible){
+        .ivu-select-selection{
+          &.no-border{
+            border: 0;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+  .ivu-table-small{
+    .ivu-form-item{
+      .ivu-form-item-content{
+        .edit-table-text{
+          min-height: 24px;
+          line-height: 24px;
+        }
+      }
+    }
+    .ivu-table-footer{
+      height: 44px;
+      line-height: 44px;
+    }
+  }
+}
+.removeBtn{
+  background: white;
+}

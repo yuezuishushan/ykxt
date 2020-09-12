@@ -1,0 +1,91 @@
+{
+  "name": "beauty-admin",
+  "version": "2.0.0",
+  "author": "",
+  "private": false,
+  "scripts": {
+    "dev": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "@ag-grid-community/all-modules": "~23.2.0",
+    "@ag-grid-community/client-side-row-model": "~23.2.0",
+    "@ag-grid-community/core": "~23.2.0",
+    "@ag-grid-community/csv-export": "~23.2.0",
+    "@ag-grid-community/infinite-row-model": "~23.2.0",
+    "@ag-grid-community/vue": "~23.2.0",
+    "@ag-grid-enterprise/all-modules": "~23.2.0",
+    "@riophae/vue-treeselect": "^0.4.0",
+    "axios": "^0.18.0",
+    "codemirror": "^5.38.0",
+    "countup": "^1.8.2",
+    "cropperjs": "^1.2.2",
+    "crypto-js": "^3.1.9-1",
+    "dayjs": "^1.7.7",
+    "echarts": "^4.6.0",
+    "html2canvas": "^1.0.0-alpha.12",
+    "iview-area": "^1.5.17",
+    "iview-contextmenu": "^0.2.0",
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.0",
+    "js-md5": "^0.7.3",
+    "pinyin": "^2.9.1",
+    "quill-image-extend-module": "^1.1.2",
+    "simplemde": "^1.11.2",
+    "sortablejs": "^1.7.0",
+    "v-charts": "^1.19.0",
+    "view-design": "^4.3.2",
+    "vue": "^2.6.10",
+    "vue-amap": "^0.5.9",
+    "vue-class-component": "^7.2.3",
+    "vue-i18n": "^7.8.0",
+    "vue-lazyload": "^1.2.6",
+    "vue-property-decorator": "^8.4.2",
+    "vue-qr": "^2.2.1",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.3.2",
+    "vuedraggable": "^2.23.2",
+    "vuex": "^3.0.1",
+    "vx-easyui": "^1.2.1",
+    "wangeditor": "^3.1.1",
+    "xlsx": "^0.13.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-plugin-unit-mocha": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "@vue/eslint-config-standard": "^3.0.0-beta.10",
+    "@vue/test-utils": "^1.0.0-beta.10",
+    "babel-plugin-component": "^1.1.1",
+    "chai": "^4.1.2",
+    "eslint-plugin-cypress": "^2.0.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "lint-staged": "^6.0.0",
+    "mockjs": "^1.0.1-beta3",
+    "vue-particles": "^1.0.9",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}

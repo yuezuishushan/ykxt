@@ -1,0 +1,100 @@
+{
+  "id": "2052143",
+  "name": "云控",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7553919",
+      "name": "素材库",
+      "font_class": "RectangleCopy",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "435958",
+      "name": "数据",
+      "font_class": "shuju",
+      "unicode": "e7d1",
+      "unicode_decimal": 59345
+    },
+    {
+      "icon_id": "1137788",
+      "name": "系统",
+      "font_class": "xitong1",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "9783462",
+      "name": "任务",
+      "font_class": "renwu1",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "14435324",
+      "name": "首页",
+      "font_class": "shouye1",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "16480872",
+      "name": "插件功能",
+      "font_class": "chajiangongneng",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "5383814",
+      "name": "设备",
+      "font_class": "huabanfuben",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "1034000",
+      "name": "数据",
+      "font_class": "iconfontpaixingbang",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "1277697",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "3977831",
+      "name": "系统",
+      "font_class": "xitong",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "5330263",
+      "name": "任务",
+      "font_class": "renwu",
+      "unicode": "e772",
+      "unicode_decimal": 59250
+    },
+    {
+      "icon_id": "6319086",
+      "name": "设备",
+      "font_class": "shebei",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "8371435",
+      "name": "客服插件",
+      "font_class": "kefuchajian",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}

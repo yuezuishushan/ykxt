@@ -1,0 +1,115 @@
+.main{
+  .logo-con{
+    height: 64px;
+    padding: 10px;
+    position: sticky;
+    background: #222152;
+    left: 0;
+    top: 0;
+    z-index: 901;
+    img{
+      height: 44px;
+      width: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .header-con{
+    background: linear-gradient(90deg,#222152,#3F338A);
+    padding: 0 20px;
+    width: 100%;
+  }
+  .main-layout-con{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .main-content-con{
+    height: ~"calc(100% - 64px)";
+    overflow: hidden;
+  }
+  .tag-nav-wrapper{
+    padding: 0;
+    height:40px;
+    background:#F0F0F0;
+  }
+  .content-wrapper{
+    padding: 15px;
+    overflow: auto;
+    position: relative;
+  }
+  .left-sider{
+    background: #222152;
+    box-shadow: 2px 0 6px rgba(34, 33, 82, 0.35);
+    .ivu-layout-sider-children{
+      overflow-y: scroll;
+    }
+    .ivu-menu-dark {
+      background: #222152;
+    }
+  }
+}
+.ivu-menu-item > i{
+  margin-right: 12px !important;
+}
+.ivu-card-extra{
+  z-index: 1;
+}
+.ivu-menu-submenu > .ivu-menu > .ivu-menu-item > i {
+  margin-right: 8px !important;
+}
+.collased-menu-dropdown{
+  width: 100%;
+  margin: 0;
+  line-height: normal;
+  padding: 7px 0 6px 16px;
+  clear: both;
+  font-size: 12px !important;
+  white-space: nowrap;
+  list-style: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  &:hover{
+    background: rgba(34, 33, 82, 0.5);
+  }
+  & * {
+    color: rgba(34, 33, 82, 0.7);
+  }
+  .ivu-menu-item > i{
+    margin-right: 12px !important;
+  }
+  .ivu-menu-submenu > .ivu-menu > .ivu-menu-item > i {
+    margin-right: 8px !important;
+  }
+}
+
+.ivu-select-dropdown{
+  &.ivu-dropdown-transfer{
+    max-height: none;
+  }
+  &.custom-flex{
+    .ivu-select-item{
+      display: flex;
+      padding: 5px 10px;
+      align-items: center;
+      .option-title{
+        flex: 1;
+      }
+      .option-desc{
+        text-align: right;
+        font-size: 12px;
+        color: #ccc;
+      }
+    }
+  }
+}
+ .main .logo-con img {
+   height: 50px;
+   width: auto;
+   display: block;
+   margin: 12px;
+ }
+.main .logo-con{
+  padding: 0px 2px;
+}
+

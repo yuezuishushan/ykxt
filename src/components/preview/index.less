@@ -1,0 +1,26 @@
+._preview-wrapper{
+  .ivu-modal-body{
+    text-align: center;
+    .ivu-carousel-item{
+      height: 0 !important;
+      overflow: hidden;
+      &.active{
+        height: auto !important;
+      }
+    }
+    .media-wrapper{
+      display: inline-block;
+      position: relative;
+      padding: 12px;
+      .remove-btn{
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      video{
+        width: 100%;
+        max-height: 320px;
+      }
+    }
+  }
+}

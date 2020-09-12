@@ -1,0 +1,64 @@
+@inputHeight: 36px;
+.login-wrap{
+  padding: 30px;
+  .wrap-header{
+    color: #7958FC;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+  }
+  .ivu-login{
+    margin-top: 24px;
+    .ivu-form-item{
+      margin-bottom: 17px;
+      .ivu-form-item-content{
+        .ivu-input-wrapper{
+          .ivu-input-icon{
+            height: @inputHeight;
+            line-height: @inputHeight;
+          }
+          .ivu-input{
+            height: @inputHeight;
+            font-size: 14px;
+            border-color: #ddd;
+          }
+          .ivu-input-prefix{
+            .ivu-icon{
+              line-height: @inputHeight;
+            }
+          }
+        }
+        .ivu-form-item-error-tip{
+          padding-top: 3px;
+          font-size: 12px;
+        }
+      }
+    }
+    .ivu-login-captcha{
+      .ivu-btn{
+        height: @inputHeight;
+        border-color: #ddd;
+      }
+    }
+    .auto-login{
+      margin-bottom: 12px;
+      text-align: left;
+    }
+    .ivu-login-submit{
+      padding-top: 15px;
+      .ivu-btn{
+        height: 32px;
+        background: #8448FF;
+        border-color: #8448FF;
+        border-radius: 4px;
+        font-size: 13px;
+      }
+    }
+  }
+  .login-tip {
+    font-size: 10px;
+    text-align: center;
+    color: #c3c3c3;
+  }
+}
